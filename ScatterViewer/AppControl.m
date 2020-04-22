@@ -181,11 +181,11 @@
 			on1 =  ((pos.x > (hx - d)) && (pos.x < (hx + d)));
 			on2 =  ((pos.y > (hy - d)) && (pos.y < (hy + d)));
 			if (on1 && on2) {
-				ovr1[j]		= 255; //255;
-				ovr1[j+1]	= 100; //100;
+				ovr1[j]		= 255;
+				ovr1[j+1]	= 100;
 				ovr1[j+2]	= 0;
-				ovr2[j]		= 255; //255;
-				ovr2[j+1]	= 100; //100;
+				ovr2[j]		= 255;
+				ovr2[j+1]	= 100;
 				ovr2[j+2]	= 0;
 			} else {
 				ovr1[j]		= 0;
