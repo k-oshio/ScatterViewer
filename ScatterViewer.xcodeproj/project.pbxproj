@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B42E8B34242B39CC005C0D24 /* RecKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = B4CE9D85242A1D900056ABA7 /* RecKit.framework */; };
+		B42E8B36242B3A9D005C0D24 /* NumKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = B42E8B35242B3A9D005C0D24 /* NumKit.framework */; };
+		B43DB797242F288F00DFA3C3 /* AppControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DB796242F288F00DFA3C3 /* AppControl.m */; };
+		B47145842450348800AA22CE /* KOWindowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B47145722450348600AA22CE /* KOWindowControl.m */; };
+		B47145852450348800AA22CE /* KOImageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B47145742450348600AA22CE /* KOImageControl.m */; };
+		B47145872450348800AA22CE /* KOProfView.m in Sources */ = {isa = PBXBuildFile; fileRef = B47145762450348600AA22CE /* KOProfView.m */; };
+		B47145882450348800AA22CE /* KOScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B47145782450348600AA22CE /* KOScaleView.m */; };
+		B47145892450348800AA22CE /* KOIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B471457C2450348700AA22CE /* KOIndicator.m */; };
+		B471458A2450348800AA22CE /* KOProfControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B471457E2450348700AA22CE /* KOProfControl.m */; };
+		B471458B2450348800AA22CE /* KOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B47145802450348700AA22CE /* KOImageView.m */; };
+		B471458C2450348800AA22CE /* KOSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B47145812450348700AA22CE /* KOSlider.m */; };
+		B4CE9D3B242A07730056ABA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CE9D3A242A07730056ABA7 /* main.m */; };
+		B4CE9D3D242A07730056ABA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CE9D3C242A07730056ABA7 /* Assets.xcassets */; };
+		B4CE9D40242A07730056ABA7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4CE9D3E242A07730056ABA7 /* MainMenu.xib */; };
+		B4CE9D86242A1D900056ABA7 /* RecKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CE9D85242A1D900056ABA7 /* RecKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B42E8B35242B3A9D005C0D24 /* NumKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NumKit.framework; path = ../NumKit/build/NumKit.framework; sourceTree = "<group>"; };
+		B43DB795242F288F00DFA3C3 /* AppControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppControl.h; sourceTree = "<group>"; };
+		B43DB796242F288F00DFA3C3 /* AppControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppControl.m; sourceTree = "<group>"; };
+		B47145722450348600AA22CE /* KOWindowControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOWindowControl.m; path = ../KOImageView/KOWindowControl.m; sourceTree = "<group>"; };
+		B47145732450348600AA22CE /* KOScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOScaleView.h; path = ../KOImageView/KOScaleView.h; sourceTree = "<group>"; };
+		B47145742450348600AA22CE /* KOImageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOImageControl.m; path = ../KOImageView/KOImageControl.m; sourceTree = "<group>"; };
+		B47145762450348600AA22CE /* KOProfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOProfView.m; path = ../KOImageView/KOProfView.m; sourceTree = "<group>"; };
+		B47145772450348600AA22CE /* KOSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOSlider.h; path = ../KOImageView/KOSlider.h; sourceTree = "<group>"; };
+		B47145782450348600AA22CE /* KOScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOScaleView.m; path = ../KOImageView/KOScaleView.m; sourceTree = "<group>"; };
+		B47145792450348600AA22CE /* KOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOImageView.h; path = ../KOImageView/KOImageView.h; sourceTree = "<group>"; };
+		B471457A2450348600AA22CE /* KOIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOIndicator.h; path = ../KOImageView/KOIndicator.h; sourceTree = "<group>"; };
+		B471457B2450348700AA22CE /* KOImageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOImageControl.h; path = ../KOImageView/KOImageControl.h; sourceTree = "<group>"; };
+		B471457C2450348700AA22CE /* KOIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOIndicator.m; path = ../KOImageView/KOIndicator.m; sourceTree = "<group>"; };
+		B471457E2450348700AA22CE /* KOProfControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOProfControl.m; path = ../KOImageView/KOProfControl.m; sourceTree = "<group>"; };
+		B471457F2450348700AA22CE /* KOProfControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOProfControl.h; path = ../KOImageView/KOProfControl.h; sourceTree = "<group>"; };
+		B47145802450348700AA22CE /* KOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOImageView.m; path = ../KOImageView/KOImageView.m; sourceTree = "<group>"; };
+		B47145812450348700AA22CE /* KOSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KOSlider.m; path = ../KOImageView/KOSlider.m; sourceTree = "<group>"; };
+		B47145822450348700AA22CE /* KOWindowControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOWindowControl.h; path = ../KOImageView/KOWindowControl.h; sourceTree = "<group>"; };
+		B47145832450348800AA22CE /* KOProfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KOProfView.h; path = ../KOImageView/KOProfView.h; sourceTree = "<group>"; };
+		B4CE9D33242A07730056ABA7 /* ScatterViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScatterViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4CE9D3A242A07730056ABA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4CE9D3C242A07730056ABA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4CE9D3F242A07730056ABA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B4CE9D41242A07730056ABA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CE9D85242A1D900056ABA7 /* RecKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RecKit.framework; path = ../RecKit/RecKit/build/RecKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4CE9D30242A07730056ABA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CE9D86242A1D900056ABA7 /* RecKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4CE9D2A242A07730056ABA7 = {
+			isa = PBXGroup;
+			children = (
+				B471457B2450348700AA22CE /* KOImageControl.h */,
+				B47145742450348600AA22CE /* KOImageControl.m */,
+				B47145792450348600AA22CE /* KOImageView.h */,
+				B47145802450348700AA22CE /* KOImageView.m */,
+				B471457A2450348600AA22CE /* KOIndicator.h */,
+				B471457C2450348700AA22CE /* KOIndicator.m */,
+				B471457F2450348700AA22CE /* KOProfControl.h */,
+				B471457E2450348700AA22CE /* KOProfControl.m */,
+				B47145832450348800AA22CE /* KOProfView.h */,
+				B47145762450348600AA22CE /* KOProfView.m */,
+				B47145732450348600AA22CE /* KOScaleView.h */,
+				B47145782450348600AA22CE /* KOScaleView.m */,
+				B47145772450348600AA22CE /* KOSlider.h */,
+				B47145812450348700AA22CE /* KOSlider.m */,
+				B47145822450348700AA22CE /* KOWindowControl.h */,
+				B47145722450348600AA22CE /* KOWindowControl.m */,
+				B42E8B35242B3A9D005C0D24 /* NumKit.framework */,
+				B4CE9D85242A1D900056ABA7 /* RecKit.framework */,
+				B4CE9D35242A07730056ABA7 /* ScatterViewer */,
+				B4CE9D34242A07730056ABA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4CE9D34242A07730056ABA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE9D33242A07730056ABA7 /* ScatterViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4CE9D35242A07730056ABA7 /* ScatterViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B43DB795242F288F00DFA3C3 /* AppControl.h */,
+				B43DB796242F288F00DFA3C3 /* AppControl.m */,
+				B4CE9D3C242A07730056ABA7 /* Assets.xcassets */,
+				B4CE9D3E242A07730056ABA7 /* MainMenu.xib */,
+				B4CE9D41242A07730056ABA7 /* Info.plist */,
+				B4CE9D39242A07730056ABA7 /* Supporting Files */,
+			);
+			path = ScatterViewer;
+			sourceTree = "<group>";
+		};
+		B4CE9D39242A07730056ABA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE9D3A242A07730056ABA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4CE9D32242A07730056ABA7 /* ScatterViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4CE9D44242A07730056ABA7 /* Build configuration list for PBXNativeTarget "ScatterViewer" */;
+			buildPhases = (
+				B4CE9D2F242A07730056ABA7 /* Sources */,
+				B4CE9D30242A07730056ABA7 /* Frameworks */,
+				B4CE9D31242A07730056ABA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScatterViewer;
+			productName = ScatterViewer;
+			productReference = B4CE9D33242A07730056ABA7 /* ScatterViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4CE9D2B242A07730056ABA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Koichi Oshio";
+				TargetAttributes = {
+					B4CE9D32242A07730056ABA7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B4CE9D2E242A07730056ABA7 /* Build configuration list for PBXProject "ScatterViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = B4CE9D2A242A07730056ABA7;
+			productRefGroup = B4CE9D34242A07730056ABA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4CE9D32242A07730056ABA7 /* ScatterViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4CE9D31242A07730056ABA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42E8B36242B3A9D005C0D24 /* NumKit.framework in Resources */,
+				B42E8B34242B39CC005C0D24 /* RecKit.framework in Resources */,
+				B4CE9D3D242A07730056ABA7 /* Assets.xcassets in Resources */,
+				B4CE9D40242A07730056ABA7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4CE9D2F242A07730056ABA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47145842450348800AA22CE /* KOWindowControl.m in Sources */,
+				B471458B2450348800AA22CE /* KOImageView.m in Sources */,
+				B471458A2450348800AA22CE /* KOProfControl.m in Sources */,
+				B47145852450348800AA22CE /* KOImageControl.m in Sources */,
+				B47145872450348800AA22CE /* KOProfView.m in Sources */,
+				B43DB797242F288F00DFA3C3 /* AppControl.m in Sources */,
+				B47145882450348800AA22CE /* KOScaleView.m in Sources */,
+				B471458C2450348800AA22CE /* KOSlider.m in Sources */,
+				B4CE9D3B242A07730056ABA7 /* main.m in Sources */,
+				B47145892450348800AA22CE /* KOIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4CE9D3E242A07730056ABA7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4CE9D3F242A07730056ABA7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4CE9D42242A07730056ABA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Projects6/RecKit/RecKit/build";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(HOME)/Projects6/RecKit/RecKit/build";
+				LIBRARY_SEARCH_PATHS = "$(HOME)/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(HOME)/lib";
+			};
+			name = Debug;
+		};
+		B4CE9D43242A07730056ABA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Projects6/RecKit/RecKit/build";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(HOME)/Projects6/RecKit/RecKit/build";
+				LIBRARY_SEARCH_PATHS = "$(HOME)/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(HOME)/lib";
+			};
+			name = Release;
+		};
+		B4CE9D45242A07730056ABA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScatterViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Resources";
+				PRODUCT_BUNDLE_IDENTIFIER = oshio.ScatterViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4CE9D46242A07730056ABA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScatterViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Resources";
+				PRODUCT_BUNDLE_IDENTIFIER = oshio.ScatterViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4CE9D2E242A07730056ABA7 /* Build configuration list for PBXProject "ScatterViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CE9D42242A07730056ABA7 /* Debug */,
+				B4CE9D43242A07730056ABA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4CE9D44242A07730056ABA7 /* Build configuration list for PBXNativeTarget "ScatterViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4CE9D45242A07730056ABA7 /* Debug */,
+				B4CE9D46242A07730056ABA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4CE9D2B242A07730056ABA7 /* Project object */;
+}
