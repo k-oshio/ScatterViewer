@@ -14,7 +14,6 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
 //	[NSApp setDelegate:self];
 	control1 = [control1 init];
 	control2 = [control2 init];
@@ -79,8 +78,8 @@
 	if ([control1 nImages] == 0 || [control2 nImages] == 0) {
 		return;
 	}
-	img1 = [control1 selectedImage];
-	img2 = [control2 selectedImage];
+    img1 = [[control1 dispBuf] sliceAtIndex:[control1 imageIndex]];
+    img2 = [[control2 dispBuf] sliceAtIndex:[control2 imageIndex]];
 	if ([img1 xDim] != [img2 xDim] || [img2 yDim] != [img2 yDim]) {
 		return;
 	}
@@ -128,8 +127,8 @@
 	unsigned char	*ovr2;
 	int				i, j, d = 5;
 
-	img1 = [control1 selectedImage];
-	img2 = [control2 selectedImage];
+	img1 = [[control1 dispBuf] sliceAtIndex:[control1 imageIndex]];
+	img2 = [[control2 dispBuf] sliceAtIndex:[control2 imageIndex]];
     view1 = [control1 view];
     view2 = [control2 view];
 
@@ -158,6 +157,7 @@
 		if (hy > 255) hy = 255;
 		histPos.x = hx;
 		histPos.y = hy;
+  printf("%d %d %f\n", hx, hy, mx);      
 		[controlSct reportCursorAt:histPos from:self];
 	}
     // sct
@@ -175,25 +175,29 @@
 		p1 = [img1 data];
 		p2 = [img2 data];
 		mx = [img1 maxVal];
-		for (i = j = 0; i < [img1 xDim] * [img1 yDim]; i++, j+=3) {
+		for (i = j = 0; i < [img1 dataLength]; i++, j+=4) {
 			hx = p1[i] * 256 / mx;
 			hy = 255 - p2[i] * 256 / mx;
 			on1 =  ((pos.x > (hx - d)) && (pos.x < (hx + d)));
 			on2 =  ((pos.y > (hy - d)) && (pos.y < (hy + d)));
 			if (on1 && on2) {
-				ovr1[j]		= 255;
-				ovr1[j+1]	= 100;
-				ovr1[j+2]	= 0;
-				ovr2[j]		= 255;
-				ovr2[j+1]	= 100;
-				ovr2[j+2]	= 0;
+				ovr1[j  ]   = 200;      // r
+				ovr1[j+1]	= 0;        // g
+				ovr1[j+2]	= 0;        // b
+                ovr1[j+3]   = 255;      // alpha
+				ovr2[j  ]   = 200;      // r
+				ovr2[j+1]	= 0;        // g
+				ovr2[j+2]	= 0;        // b
+                ovr2[j+3]   = 255;      // alpha
 			} else {
-				ovr1[j]		= 0;
+				ovr1[j  ]   = 0;
 				ovr1[j+1]	= 0;
-				ovr1[j+2]	= 0;
-				ovr2[j]		= 0;
+                ovr1[j+2]   = 0;
+                ovr1[j+3]   = 0;
+				ovr2[j  ]   = 0;
 				ovr2[j+1]	= 0;
-				ovr2[j+2]	= 0;
+                ovr2[j+2]   = 0;
+                ovr2[j+3]   = 0;
 			}
 		}
 		[control1 displayImage];
